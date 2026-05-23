@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body class="admin-body">
+
+<div class="admin-container">
+
+    <h1>Jobs (Admin Panel)</h1>
+
+    <a href="/add_job" class="btn">➕ Add Job</a>
+
+    <hr>
+
+    {% for job in jobs %}
+
+    <div class="job-card">
+
+        <h2>{{ job.title }}</h2>
+
+        <p>{{ job.description }}</p>
+
+        <a href="/delete/{{ job.id }}" class="delete">Delete</a>
+
+    </div>
+
+    {% endfor %}
+
+</div>
+
+</body>
+</html>

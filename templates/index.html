@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Resume Analyzer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body class="cv-body">
+
+<div class="card">
+
+    <h1>AI Resume Analyzer</h1>
+
+    <p class="subtitle">Upload your CV to analyze skills</p>
+
+    <form action="/analyze" method="POST" enctype="multipart/form-data">
+
+        <input type="file" name="cv" class="file-input" required>
+
+        <button type="submit" class="btn">Analyze CV</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>

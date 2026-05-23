@@ -1,0 +1,287 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* DASHBOARD BACKGROUND */
+.dashboard-body {
+    background: linear-gradient(135deg, #1f4037, #99f2c8);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+}
+
+h1 {
+    color: #333;
+}
+
+.subtitle {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+/* BUTTONS */
+.btn {
+    display: block;
+    margin: 10px 0;
+    padding: 12px;
+    background: #1f4037;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #145a32;
+}
+
+/* LOGOUT BUTTON */
+.logout {
+    background: crimson;
+}
+
+.logout:hover {
+    background: darkred;
+}
+.error-body {
+    background: linear-gradient(135deg, #8e0e00, #1f1c18);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-card {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+}
+
+.error-card h1 {
+    color: crimson;
+}
+
+.cv-body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-body {
+    background: linear-gradient(135deg, #232526, #414345);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FILE INPUT */
+.file-input {
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px dashed #1f4037;
+    width: 100%;
+}
+
+/* SCORE BOX */
+.score-box {
+    background: #1f4037;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+/* SKILLS */
+.found {
+    color: green;
+    font-weight: bold;
+}
+
+.missing {
+    color: red;
+    font-weight: bold;
+}
+
+.auth-body {
+    background: linear-gradient(135deg, #141e30, #243b55);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-card {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+}
+
+.auth-card h1 {
+    color: #243b55;
+}
+
+.auth-card input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #243b55;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #141e30;
+}
+
+.switch {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.switch a {
+    color: #243b55;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.error-body {
+    background: linear-gradient(135deg, #2c3e50, #000000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-card {
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0px 15px 40px rgba(0,0,0,0.5);
+}
+
+.icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.error-card h1 {
+    color: crimson;
+}
+
+.error-card p {
+    color: #555;
+}
+
+.small {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.admin-body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    font-family: Arial;
+    padding: 20px;
+}
+
+.admin-container {
+    width: 70%;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+}
+
+.job-card {
+    background: #f4f4f4;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    border-left: 5px solid #2c5364;
+}
+
+.job-card h2 {
+    margin: 0;
+    color: #2c5364;
+}
+
+.delete {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    background: crimson;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.delete:hover {
+    background: darkred;
+}
+
+.form-container {
+    width: 50%;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.form-container textarea {
+    height: 120px;
+    resize: none;
+}
+
+.back {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #2c5364;
+    font-weight: bold;
+}

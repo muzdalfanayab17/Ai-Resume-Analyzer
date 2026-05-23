@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Job</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<form method="POST">
+
+    <h2>Update Job</h2>
+
+    <input type="text" name="title" value="{{ job.title }}" required>
+
+    <textarea name="description">{{ job.description }}</textarea>
+
+    <button type="submit">Update</button>
+
+</form>
+
+</body>
+</html>

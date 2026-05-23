@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body class="dashboard-body">
+
+<div class="card">
+
+    <h1>Welcome {{ session['user'] }}</h1>
+
+    <p class="subtitle">AI Resume Analyzer System</p>
+
+    <hr>
+
+    <a class="btn" href="/admin">Manage Jobs (CRUD)</a>
+
+    <a class="btn" href="/cv">Upload CV for AI Analysis</a>
+
+    <a class="btn logout" href="/logout">Logout</a>
+
+</div>
+
+</body>
+</html>

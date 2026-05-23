@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CV Result</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body class="result-body">
+
+<div class="card">
+
+    <h1>CV Analysis Result</h1>
+
+    <div class="score-box">
+        <h2>Score: {{ score }}%</h2>
+    </div>
+
+    <h3>Found Skills</h3>
+    <p class="found">{{ found }}</p>
+
+    <h3>Missing Skills</h3>
+    <p class="missing">{{ missing }}</p>
+
+    <a href="/cv" class="btn">Try Again</a>
+
+</div>
+
+</body>
+</html>
